@@ -31,5 +31,5 @@ Tested on RX 480 and GTX 650 ti.
 ![Main Menu Interface](ss/7.png)
 
 ### Credits
-Custom font: https://www.1001fonts.com/duo-font.html
-Models made by me with Blender 2.8: https://www.blender.org
+- Custom font: https://www.1001fonts.com/duo-font.html
+- Models made by me with Blender 2.8: https://www.blender.org
