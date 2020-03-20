@@ -3,16 +3,21 @@
 
 ![Player 1 punched with right hand another player](ss/3.png)
 
-**This application is based on [my 3D Engine](https://github.com/stanfortonski/3D-Engine-OpenGL-4). To compilation this game required are engine files which We have to download and collect in engine folder.**
+### What game is this?
+This game is inspired on old games with handwritten stickmans and Tekken. This is only fast implementation of the game but not demo. Game allows to play with friend or with AI.
 
-**Package includes exe file compiled in Windows 10 MinGW G++ and dll files.**
+**This application is based on [my Engine 3D](https://github.com/stanfortonski/3D-Engine-OpenGL-4). To compilation this game required engine files which We have to download and collect in engine folder.**
+
+**Package includes exe file compiled in Windows 10 MinGW G++ and dll files. So you can play instant without compilation.**
 
 ### Additional Features:
 - cell shading
+- blocky rain
 
 ### Requirements:
 - Graphics card that support OpenGL 4.1
 - Graphics card drivers
+- It is good to have joystick but not necessary
 
 Tested on RX 480 and GTX 650 ti.
 
