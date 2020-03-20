@@ -29,3 +29,7 @@ Tested on RX 480 and GTX 650 ti.
 ![Player 2 dead](ss/5.png)
 ![Player 1 win](ss/6.png)
 ![Main Menu Interface](ss/7.png)
+
+### Credits
+Custom font: https://www.1001fonts.com/duo-font.html
+Models made by me with Blender 2.8: https://www.blender.org
