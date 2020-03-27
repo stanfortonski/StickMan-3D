@@ -1,6 +1,6 @@
 cmake_minimum_required(VERSION 3.0)
 
-project(Stickman3D)
+project(Stickman3DFirstRound)
 
 include_directories(include)
 
