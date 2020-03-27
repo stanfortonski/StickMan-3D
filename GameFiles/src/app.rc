@@ -1,0 +1,6 @@
+#ifndef APP_RC
+#define APP_RC 1
+
+MAINICON ICON "../build/stickman.ico"
+
+#endif
