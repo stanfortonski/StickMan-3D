@@ -1,5 +1,5 @@
-# StickMan-3D
-### StickMan 3D Game written in C++ on API OpenGL 4.1
+# Stickman 3D: First Round
+### Game written in C++ on API OpenGL 4.1
 
 ![Player 1 punched with right hand another player](ss/3.png)
 
