@@ -3,6 +3,8 @@
 
 ![Player 1 punched with right hand another player](ss/3.png)
 
+YouTube video: https://www.youtube.com/watch?v=XC_Xxf7IHnU
+
 ### What game is this?
 This game is inspired on old games with handwritten stickmans and Tekken. This is only fast implementation of the game but not demo. Game allows to play with friend or with AI.
 
