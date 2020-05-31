@@ -3,12 +3,12 @@
 
 ![Player 1 punched with right hand another player](ss/3.png)
 
+YouTube video: https://www.youtube.com/watch?v=XC_Xxf7IHnU
+
 ### What game is this?
 This game is inspired on old games with handwritten stickmans and Tekken. This is only fast implementation of the game but not demo. Game allows to play with friend or with AI.
 
-**This application is based on [my Engine 3D](https://github.com/stanfortonski/3D-Engine-OpenGL-4). To compilation this game required engine files which We have to download and collect in engine folder.**
-
-**Package includes exe file compiled in Windows 10 MinGW G++ and dll files. So you can play instant without compilation.**
+**This application is based on [my own 3D Engine](https://github.com/stanfortonski/3D-Engine-OpenGL-4).**
 
 ### Additional Features:
 - cell shading
