@@ -1,11 +1,15 @@
-/* Copyright (c) 2020 by Stan Fortoński */
+/* Copyright (c) 2020 - 2021 by Stan Fortoński */
 
 #ifndef CONFIG_HPP
 #define CONFIG_HPP 1
 #define DEBUG_ENGINE 0
 #include "support/Singleton.hpp"
+#include "json.hpp"
+#include <fstream>
 #include <glm/glm.hpp>
 #include <glm/gtc/matrix_transform.hpp>
+
+using json = nlohmann::json;
 
 namespace Engine
 {
@@ -13,7 +17,7 @@ namespace Engine
   {
     friend class Singleton<Config>;
 
-    std::string title = "3D Engine - OpenGL 4.1";
+    std::string title = "StickMan 3D: First Round";
     unsigned majorVersion = 4;
     unsigned minorVersion = 1;
     unsigned windowWidth = 1920;
@@ -33,7 +37,26 @@ namespace Engine
     glm::vec3 cameraDirection = glm::vec3(0.0f, 0.0f, -1.0f);
     glm::vec3 gravity = glm::vec3(0.0f, -9.81f, 0.0f);
 
-    Config(){;}
+    Config(){
+        std::ifstream i("config.json");
+        json json;
+        i >> json;
+        i.close();
+
+        windowWidth = json["windowWidth"];
+        windowHeight = json["windowHeight"];
+        shadowSize = json["shadowSize"];
+        samples = json["samples"];
+        cameraPitch = json["cameraPitch"];
+        cameraYaw = json["cameraYaw"];
+        cameraSpeed =json["cameraSpeed"];
+        cameraSensitivity = json["cameraSensitivity"];
+        cameraFov = json["cameraFov"];
+        cameraFar = json["cameraFar"];
+        cameraNear = json["cameraNear"];
+        shadowFar = json["shadowFar"];
+        anisotropy = json["anisotropy"];
+    }
 
   public:
     std::string getTitle() const{return title;}
